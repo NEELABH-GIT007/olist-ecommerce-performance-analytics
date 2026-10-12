@@ -1,0 +1,42 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local databases
+*.duckdb
+*.duckdb.wal
+*.db
+*.sqlite
+*.sqlite3
+
+# Raw / local datasets
+03_Dataset/
+data/raw/
+data/source/
+*.csv
+*.parquet
+
+# Tableau local extracts / packaged data
+*.hyper
+*.tfl
+*.tflx
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary / generated files
+*.tmp
+*.log
+~$*
