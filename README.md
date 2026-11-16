@@ -73,27 +73,38 @@ This structure avoids a universal flat table because different business question
 
 These are descriptive findings from the observed data. Association is not treated as causation.
 
-## Current Tableau progress
+## Tableau Dashboards
 
-### Dashboard 1 — Executive Overview
-Functional analytical build completed:
-- KPI strip
+All four dashboards have been built and functionally validated. Each dashboard uses reporting-period controls, with filters applied to the appropriate analytical data sources and grains.
+
+### D01 — Executive Overview
+- KPI strip covering orders, merchandise value, average order value, unique customers, review score and on-time delivery rate
 - Monthly orders and merchandise value
 - Top categories by merchandise value
 - Review score by delivery outcome
-- Shared reporting-period controls across different data grains
 
-### Dashboard 2 — Product & Category Performance
-In progress:
-- `PC_01_Category_Ranking` — complete
-- `PC_02_Category_Value_vs_Volume` — complete
-- `PC_03_Category_Review_Performance` — in progress
+### D02 — Product & Category Performance
+- Selected-category KPI snapshot
+- Leading categories by merchandise value
+- Category merchandise value versus item volume
+- Customer experience across leading categories
+- Top products in the selected category
 
-Planned later dashboards:
-- Customer & Geography
-- Seller Performance
-- Delivery & Customer Experience
-- Payment Analysis
+### D03 — Customer & Geographic Performance
+- Customer KPIs and repeat-customer rate
+- Customer order-frequency distribution
+- Merchandise value by one-time versus repeat customer
+- Average merchandise value per customer type
+- Customer orders by state
+- Repeat-customer rate by state
+
+### D04 — Marketplace Operations & Customer Experience
+- Seller merchandise value versus item volume
+- Top 10 sellers by merchandise value
+- Delivery outcome versus customer review score
+- Payment value and payment-value share by payment method
+
+The dashboards are descriptive reporting tools. Their findings are interpreted with the relevant population, grain and data limitations in mind.
 
 ## Technology
 
